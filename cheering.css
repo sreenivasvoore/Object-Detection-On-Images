@@ -1,0 +1,28 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 23px;
+    font-family: cursive;
+    width: 100%;
+}
+
+#question, #status{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+canvas{
+    animation-name: canvasAnimation;
+}
+
+@keyframes canvasAnimation{
+    to{
+        box-shadow: 1px 1px 38px navy
+    }
+
+    from{
+        box-shadow: 1px 1px 38px cyan;
+    }
+}

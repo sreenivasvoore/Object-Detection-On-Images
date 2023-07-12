@@ -1,0 +1,15 @@
+body{
+    background-size: cover;
+}
+
+.heading{
+    font-size: 23px;
+    font-family: cursive;
+    width: 100%;
+}
+
+a{
+    width: 40%;
+    height: 40px;
+    font-family: cursive;
+}
